@@ -1,0 +1,8 @@
+# Build artifacts
+vm.exe
+*.o
+
+# Generated test data
+data/BACKING_STORE.bin
+data/addresses_random.txt
+data/addresses_location.txt
