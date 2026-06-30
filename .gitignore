@@ -1,4 +1,8 @@
+# OS junk
+.DS_Store
+
 # Build artifacts
+vm
 vm.exe
 *.o
 

@@ -1,0 +1,19 @@
+Validacao funcional automatica do simulador de memoria virtual
+================================================================
+
+Invariante verificada:
+  Como BACKING_STORE.bin foi gerado com byte[i] = i % 256, o valor
+  lido em qualquer endereco logico deve ser igual ao seu offset
+  (offset % 256) interpretado como 'signed char'. Alem disso, o
+  endereco fisico modulo 256 deve ser igual ao offset.
+
+[addresses_random.txt]
+  Traducoes verificadas : 10000
+  Divergencias          : 0
+  Resultado             : APROVADO (100% corretas)
+
+[addresses_location.txt]
+  Traducoes verificadas : 10000
+  Divergencias          : 0
+  Resultado             : APROVADO (100% corretas)
+
